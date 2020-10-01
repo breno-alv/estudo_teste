@@ -18,12 +18,24 @@
 
     <p>O JavaScript pode alterar imagens direto da fonte</p>
 
-    <button onclick="document.getElementById('myImg'). src ='/img/feliz2.png'">Feliz</button>
+    <button onclick="document.getElementById('myImg'). src ='/aula_w3s/img/feliz2.png'">Feliz</button>
     
-    <img id="myImg" src="/img/feliz2.png" style ="width: 50px ">
+    <img id="myImg" src="/aula_w3s/img/feliz2.png" style ="width: 50px ">
 
-    <button onclick="document.getElementById('myImg'). src ='/img/triste2.png'">triste</button>
+    <button onclick="document.getElementById('myImg'). src ='/aula_w3s/img/triste2.png'">triste</button>
     <!--<img id="triste" src="img/triste2.png" style ="width: 50px ">-->
+
+    <p>Também pode alterar a cor de uma string</p>
+
+    <p2 id="text1">Este texto vai mudar a cor.</p2>
+
+    <button2 id = "b2" type="button3" onclick="document.getElementById('text1').style.color = 'red'">Clique aqui</button2>
+    
+    <script>
+        document.getElementById('b2').innerText='Texto acima foi alterado';
+    </script>
+    
+
 
 </body>
 </html>
